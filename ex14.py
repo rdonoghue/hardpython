@@ -3,7 +3,7 @@ from sys import argv
 script, user_name, role = argv
 prompt = '> '
 
-print "Hi %r, I'm the %s script." % (user_name, script)
+print "Hi %s, I'm the %s script." % (user_name, script)
 print "I understand you are a %s." % (role)
 print "I'd like to ask you a few questions."
 print "Do you like me %s?" % user_name
